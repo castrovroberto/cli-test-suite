@@ -1,0 +1,13 @@
+{
+    "filetypes" : [
+    {
+        "name" : "NACHA",
+        "description" : "NACHA Standard",
+        "validationsFile" : "config/nacha.json" 
+    },
+    {
+        "name": "Exit",
+        "description": "Exit the program",
+        "validationsFile" : "NA"
+    }]
+}

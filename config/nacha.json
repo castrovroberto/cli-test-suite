@@ -1,0 +1,25 @@
+{
+    "validations" : [
+        {
+            "line" : 1,
+            "positionStart" : 1,
+            "length" : 1,
+            "expectedValue" : "1",
+            "message" : "Checking header:record type"
+        },
+        {
+            "line": 1,
+            "positionStart": 2,
+            "length": 2,
+            "expectedValue": "01",
+            "message": "Checking header:priority code"
+        }, 
+        {
+            "line": 2,
+            "positionStart": 1,
+            "length": 1,
+            "expectedValue": "5",
+            "message": "Checking Batch Header Record:record type code"          
+        }
+    ]
+}
